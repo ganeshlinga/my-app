@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
                 - name: app
-                  image: ganeshlinga/app-helm:{{ .values.env.APP_VERSION }}
+                  image: ganeshlinga/app-helm:latest
                   ports:
                     - containerPort: 3000
                   env:
